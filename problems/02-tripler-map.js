@@ -5,14 +5,20 @@ array.
 
 Solve this using Array's `map()` method.
 
-Examples: 
+Examples:
 
 console.log(tripler([2, 7, 4])); // [ 6, 21, 12 ]
 console.log(tripler([-5, 10, 0, 11])); // [ -15, 30, 0, 33 ]
 */
 
 let tripler = function(nums) {
-    // Your code here 
+    // use map function to loop nums arr
+    let mapped = nums.map((num) => {
+      return num * 3;
+    })
+    // inside function mult each num by 3
+    // return map function var
+    return mapped;
 };
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/

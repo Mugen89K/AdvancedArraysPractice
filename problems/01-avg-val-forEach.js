@@ -34,7 +34,7 @@ let avgVal = function(arr) {
 
   //divide sum of arr by  arr length and set to avg variable
   let avg = sum / arr.length;
-  
+
   //return avg
   return avg;
 };
